@@ -1,0 +1,7 @@
+C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\bin\Release\FilleWatchingService.exe.config
+C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\bin\Release\FilleWatchingService.exe
+C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\bin\Release\FilleWatchingService.pdb
+C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Release\FilleWatchingService.ProjectInstaller.resources
+C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Release\FileWatchingService.csproj.GenerateResource.Cache
+C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Release\FilleWatchingService.exe
+C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Release\FilleWatchingService.pdb

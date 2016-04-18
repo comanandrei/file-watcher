@@ -14,7 +14,7 @@ namespace FileWatchingService
         /// </summary>
         static void Main()
         {
-#if true
+#if DEBUG
             Service1 s = new Service1();
             s.OnDebug();
 
