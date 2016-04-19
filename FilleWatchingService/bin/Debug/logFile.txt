@@ -1,2 +1,0 @@
-File Deleted: Path:C:\Users\andrei.coman\Documents\test.txt , Name:test.txt 
-File Created: Path:C:\Users\andrei.coman\Documents\New Text Document.txt , Name:New Text Document.txt 

@@ -28,13 +28,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3BB14D4779CCC576F093EC01420D4DF2"
+        "OwnerKey" = "8:_E1F1D76BAF8E45048E72C16720E7F1C0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E1F1D76BAF8E45048E72C16720E7F1C0"
+        "OwnerKey" = "8:_3BB14D4779CCC576F093EC01420D4DF2"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -55,6 +55,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -71,6 +87,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -216,7 +248,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:File Watcher Service"
         "ProductCode" = "8:{39E3B3F5-4809-4E6D-809A-59028E479010}"
-        "PackageCode" = "8:{7CCE4973-925B-4956-BAF9-F827A0F0E42F}"
+        "PackageCode" = "8:{A3F02E7A-8F1F-4B19-82FF-EAEA43EBC3B8}"
         "UpgradeCode" = "8:{C51ABD5D-D6DD-494D-A478-48480DAFF5EC}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -227,7 +259,7 @@
         "Manufacturer" = "8:Default Company Name"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:FileWatcherSetup"
+        "Title" = "8:FileWatcherSetup2"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Coman Andrei"
         "Keywords" = "8:"
@@ -737,7 +769,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E1F1D76BAF8E45048E72C16720E7F1C0"
             {
-            "SourcePath" = "8:..\\FilleWatchingService\\obj\\Debug\\FilleWatchingService.exe"
+            "SourcePath" = "8:..\\FilleWatchingService\\obj\\Release\\FilleWatchingService.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3E0A185AD8CA4E5D8B2BE2914ADC14E0"

@@ -1,7 +1,7 @@
-c:\users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\bin\Debug\FilleWatchingService.exe.config
-c:\users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\bin\Debug\FilleWatchingService.exe
-c:\users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\bin\Debug\FilleWatchingService.pdb
-c:\users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Debug\FilleWatchingService.exe
-c:\users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Debug\FilleWatchingService.pdb
+C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\bin\Debug\FilleWatchingService.exe.config
+C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\bin\Debug\FilleWatchingService.exe
+C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\bin\Debug\FilleWatchingService.pdb
 C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Debug\FilleWatchingService.ProjectInstaller.resources
 C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Debug\FileWatchingService.csproj.GenerateResource.Cache
+C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Debug\FilleWatchingService.exe
+C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Debug\FilleWatchingService.pdb

@@ -5,3 +5,4 @@ C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService
 C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Release\FileWatchingService.csproj.GenerateResource.Cache
 C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Release\FilleWatchingService.exe
 C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Release\FilleWatchingService.pdb
+C:\Users\andrei.coman\documents\visual studio 2015\Projects\FilleWatchingService\FilleWatchingService\obj\Release\FileWatchingService.Service1.resources
