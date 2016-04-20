@@ -11,6 +11,7 @@ namespace FileWatchingService
     public class FileWatcher
     {
         private FileSystemWatcher _fileWatcher;
+        private string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
 
 
         public FileWatcher()
