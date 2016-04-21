@@ -1,62 +1,41 @@
 ﻿using FilleWatchingService;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace FileWatchingService
 {
     public class FileWatcher
     {
-        private FileSystemWatcher _fileWatcher;
+        private FileSystemWatcher fileWatcher;
         private string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
 
 
         public FileWatcher()
         {
-            _fileWatcher = new FileSystemWatcher(PathLocation());
+            fileWatcher = new FileSystemWatcher(Util.GetSharedPath());
 
-            _fileWatcher.Created += new FileSystemEventHandler(_fileWatcher_Created);
-            _fileWatcher.Deleted += new FileSystemEventHandler(_fileWatcher_Deleted);
-            _fileWatcher.Changed += new FileSystemEventHandler(_fileWatcher_Changed);
+            fileWatcher.Created += new FileSystemEventHandler(fileWatcher_Created);
+            fileWatcher.Deleted += new FileSystemEventHandler(fileWatcher_Deleted);
+            fileWatcher.Changed += new FileSystemEventHandler(fileWatcher_Changed);
 
-            _fileWatcher.EnableRaisingEvents = true;
+            fileWatcher.EnableRaisingEvents = true;
         }
 
-        private string PathLocation()
+
+        private void fileWatcher_Changed(object sender, FileSystemEventArgs e)
         {
-            string value = String.Empty;
-
-            try
-            {
-                value = System.Configuration.ConfigurationManager.AppSettings["location"];
-            }
-
-            catch (Exception)
-            {
-                //Implement logging on future version.
-            }
-
-
-            return value;
-
+            Util.Log(String.Format("File Changed: Path:{0} , Name:{1}; time: {2}", e.FullPath, e.Name, DateTime.Now.ToString()));
         }
 
-        private void _fileWatcher_Changed(object sender, FileSystemEventArgs e)
+        private void fileWatcher_Deleted(object sender, FileSystemEventArgs e)
         {
-            Logger.Log(String.Format("File Changed: Path:{0} , Name:{1}", e.FullPath, e.Name));
+            Util.Log(String.Format("File Deleted: Path:{0} , Name:{1}; time: {2}", e.FullPath, e.Name, DateTime.Now.ToString()));
         }
 
-        private void _fileWatcher_Deleted(object sender, FileSystemEventArgs e)
+        private void fileWatcher_Created(object sender, FileSystemEventArgs e)
         {
-            Logger.Log(String.Format("File Deleted: Path:{0} , Name:{1}", e.FullPath, e.Name));
-        }
-
-        void _fileWatcher_Created(object sender, FileSystemEventArgs e)
-        {
-            Logger.Log(String.Format("File Created: Path:{0} , Name:{1}", e.FullPath, e.Name));
+            Util.Log(String.Format("File Created: Path:{0} , Name:{1}; time: {2}", e.FullPath, e.Name, DateTime.Now.ToString()));
         }
     }
 }

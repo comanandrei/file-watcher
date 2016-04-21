@@ -64,3 +64,18 @@ yeeeeeeeeee 4/20/2016 5:36:39 PM
 yeeeeeeeeee 4/20/2016 5:37:13 PM 
 yeeeeeeeeee 4/20/2016 5:38:15 PM 
 yeeeeeeeeee 4/20/2016 5:38:26 PM 
+File Deleted: Path:C:\Users\andrei.coman\Documents\testService\New Text Document (2).txt , Name:New Text Document (2).txt 
+File Deleted: Path:C:\Users\andrei.coman\Documents\testService\New Text Document.txt , Name:New Text Document.txt 
+The folder was scaned at 4/21/2016 3:11:38 PM 
+File Deleted: Path:C:\Users\andrei.coman\Documents\testService\New Text Document (2).txt , Name:New Text Document (2).txt 
+File Deleted: Path:C:\Users\andrei.coman\Documents\testService\New Text Document.txt , Name:New Text Document.txt 
+The folder was scaned at 4/21/2016 3:18:13 PM 
+File Created: Path:C:\Users\andrei.coman\Documents\testService\New Text Document (2).txt , Name:New Text Document (2).txt 
+File Changed: Path:C:\Users\andrei.coman\Documents\testService\New Text Document (2).txt , Name:New Text Document (2).txt 
+File Created: Path:C:\Users\andrei.coman\Documents\testService\New Text Document.txt , Name:New Text Document.txt 
+File Changed: Path:C:\Users\andrei.coman\Documents\testService\New Text Document.txt , Name:New Text Document.txt 
+File Changed: Path:C:\Users\andrei.coman\Documents\testService\New Text Document.txt , Name:New Text Document.txt 
+File Changed: Path:C:\Users\andrei.coman\Documents\testService\New Text Document.txt , Name:New Text Document.txt 
+File Deleted: Path:C:\Users\andrei.coman\Documents\testService\New Text Document (2).txt , Name:New Text Document (2).txt 
+File Deleted: Path:C:\Users\andrei.coman\Documents\testService\New Text Document.txt , Name:New Text Document.txt 
+The folder was scaned at 4/21/2016 4:04:52 PM 

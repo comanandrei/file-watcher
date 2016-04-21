@@ -246,9 +246,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:File Watcher Service"
+        "ProductName" = "8:Share file watcher"
         "ProductCode" = "8:{39E3B3F5-4809-4E6D-809A-59028E479010}"
-        "PackageCode" = "8:{A3F02E7A-8F1F-4B19-82FF-EAEA43EBC3B8}"
+        "PackageCode" = "8:{22D97725-43AF-479B-B154-CCE58EB82C87}"
         "UpgradeCode" = "8:{C51ABD5D-D6DD-494D-A478-48480DAFF5EC}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
